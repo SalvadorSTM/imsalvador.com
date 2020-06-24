@@ -12,11 +12,14 @@ https://colorhunt.co/palette/192310
   color: #b1bfbf;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   text-align: center;
   color: #204051;
-  overflow-x: hidden;
 }
 
 p {
