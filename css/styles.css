@@ -1,5 +1,6 @@
 /* Color Palette
 https://colorhunt.co/palette/192310
+
 */
 
 #colorpalette {
@@ -88,20 +89,7 @@ hr {
   position: absolute;
   right: 5%;
   top: -40%;
-  animation: 2s slideinfromright ease-in-out,
-  ease-in-out 5s floatinplaceright 2s infinite alternate;
-}
-
-/* ANIMATION: Slide in from right  */
-@keyframes slideinfromright {
-  from {
-    right: -50%;
-    top: -100%;
-  }
-
-  to {
-    right: 5%;
-  }
+  animation: ease-in-out 5s floatinplaceright infinite alternate;
 }
 
 /* ANIMATION: move to right and back  */
@@ -133,20 +121,7 @@ hr {
   position: absolute;
   left: 5%;
   bottom: -30%;
-  animation: 2s slideinfromleft ease-in-out,
-  ease-in-out 5s floatinplaceleft 2s infinite alternate;
-}
-
-/* ANIMATION: Slide in from left  */
-@keyframes slideinfromleft {
-  from {
-    left: -50%;
-    bottom: -100%;
-  }
-
-  to {
-    left: 5%;
-  }
+  animation: ease-in-out 5s floatinplaceleft infinite alternate;
 }
 
 /* ANIMATION: move to left and back  */
