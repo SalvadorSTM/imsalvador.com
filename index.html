@@ -61,7 +61,7 @@
       <h2>Hi!</h2>
       <p class="profile-description">Nice to meet you!</p>
       <p class="profile-description">I'm an application support engineer based in Atlanta, Georgia.</p>
-      <p class="profile-description">I have 3 years of experience working with web applications.</p>
+      <p class="profile-description">I have <span id="years-exp"></span> years of experience working with web applications.</p>
     </div>
     <hr>
 
@@ -107,9 +107,13 @@
       <a class="footer-link" href="https://stackoverflow.com/users/9351561/salvador-martinez">Stack Overflow</a>
       <a class="footer-link" href="https://imsalvador.com">Website</a>
     </div>
-    <p class="copyright-text">2020 Salvador Martinez</p>
+    <p class="copyright-text"><span id="copyright-year"></span> Salvador Martinez</p>
   </section>
 
+  <script>
+    document.getElementById('years-exp').textContent = new Date().getFullYear() - 2020;
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+  </script>
 
 </body>
 
