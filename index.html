@@ -1,63 +1,41 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170229180-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-170229180-1');
-</script>
-
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Salvador Martinez</title>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Ubuntu&display=swap"
-    rel="stylesheet">
+  <meta name="description" content="Salvador Martinez — application support engineer and web developer based in Atlanta, Georgia.">
+  <meta property="og:title" content="Salvador Martinez">
+  <meta property="og:description" content="Application support engineer and web developer based in Atlanta, Georgia.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#66BFBF">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
-  <!-- Bootstrap CSS only -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <!-- Bootstrap JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/babd73e286.js" crossorigin="anonymous"></script>
-  <!--Custom stylesheet -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-
   <section id="top-section">
-    <div class="container transistion">
-      <img id="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <div class="container transition">
+      <img id="top-cloud" src="images/cloud.png" alt="">
       <h1 id="title"><em>I'm Salvador</em></h1>
       <h2 id="description">a <span class="pro">pro</span>grammer</h2>
-      <img id="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img id="bottom-cloud" src="images/cloud.png" alt="">
     </div>
-    <div class="container transition">
-      <img id="mountain-img" src="images/mountain.png" alt="mountain-img">
+    <div class="container">
+      <img id="mountain-img" src="images/mountain.png" alt="">
     </div>
   </section>
 
-
   <section id="middle-section">
     <div class="container">
-      <img class="profile-img" src="images/fox.svg" alt="fox-img">
+      <img class="profile-img" src="images/fox.svg" alt="">
       <h2>Hi!</h2>
       <p class="profile-description">Nice to meet you!</p>
       <p class="profile-description">I'm an application support engineer based in Atlanta, Georgia.</p>
@@ -68,20 +46,20 @@
     <h2 class="skills-title">Skills</h2>
 
     <div class="container">
-      <div class="skill-row row">
-        <img class="skill-img col-lg-2 col-md-12" src="images/code.svg" alt="code-img">
-        <div class="skill-description-container1 col-lg-9 col-md-12">
+      <div class="skill-row">
+        <img class="skill-img" src="images/code.svg" alt="">
+        <div class="skill-description-container1">
           <h3 class="skills-header">Web Development</h3>
-          <p class="skill-description1">Websites should be beautiful and functional. 
-            I'm always working on learning the latest and greatest technologies to implement in my projects. </p>
+          <p class="skill-description1">Websites should be beautiful and functional.
+            I'm always working on learning the latest and greatest technologies to implement in my projects.</p>
         </div>
       </div>
 
-      <div class="skill-row row">
-        <img class="skill-img col-lg-2 order-lg-2 col-md-12" src="images/tower-pc.svg" alt="operations-img">
-        <div  class="skill-description-container2 col-lg-9 col-md-12">
+      <div class="skill-row skill-row-reverse">
+        <img class="skill-img" src="images/tower-pc.svg" alt="">
+        <div class="skill-description-container2">
           <h3 class="skills-header">Operations Engineering</h3>
-          <p class="skill-description2">I can help keep your web application up and running! 
+          <p class="skill-description2">I can help keep your web application up and running!
             My specialties include monitoring, investigating, and creating simple solutions.</p>
         </div>
       </div>
@@ -94,21 +72,19 @@
         <h2>Get In Touch</h2>
         <h3>I'd love to work with you!</h3>
         <p class="contact-message">If you have a question or want to reach out, please send me a message.</p>
-        <div id="contact-btn" class="container-fluid"><a class="BUTTON_AMJ col-lg-12" href="mailto:salvadort.martinez@gmail.com">Email Me!</a></div>
+        <div id="contact-btn"><a class="BUTTON_AMJ" href="mailto:salvadort.martinez@gmail.com">Email Me!</a></div>
       </div>
     </div>
   </section>
 
-
-  <section class="bottom-container">
+  <footer class="bottom-container">
     <div class="footer-links">
       <a class="footer-link" href="https://www.linkedin.com/in/salvador-martinez/">LinkedIn</a>
-      <!-- <i class="fab fa-linkedin"></i> -->
       <a class="footer-link" href="https://stackoverflow.com/users/9351561/salvador-martinez">Stack Overflow</a>
       <a class="footer-link" href="https://imsalvador.com">Website</a>
     </div>
     <p class="copyright-text"><span id="copyright-year"></span> Salvador Martinez</p>
-  </section>
+  </footer>
 
   <script>
     document.getElementById('years-exp').textContent = new Date().getFullYear() - 2020;
