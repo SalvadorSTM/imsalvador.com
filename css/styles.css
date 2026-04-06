@@ -134,7 +134,7 @@ body {
   image-rendering: pixelated;
   pointer-events: auto;
   cursor: pointer;
-  z-index: 2;
+  z-index: 0;
   pointer-events: auto;
   cursor: pointer;
 }
@@ -227,6 +227,16 @@ body {
   position: relative;
   z-index: 1;
   padding: clamp(16px, 3vw, 36px);
+  pointer-events: none;
+}
+.page-shell .panel-card,
+.page-shell .masthead-card,
+.page-shell a,
+.page-shell button,
+.page-shell input,
+.page-shell textarea,
+.page-shell .tab-link {
+  pointer-events: auto;
 }
 
 .site-layout {
