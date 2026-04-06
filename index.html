@@ -1,96 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Salvador Martinez</title>
-  <meta name="description" content="Salvador Martinez — application support engineer and web developer based in Atlanta, Georgia.">
-  <meta property="og:title" content="Salvador Martinez">
-  <meta property="og:description" content="Application support engineer and web developer based in Atlanta, Georgia.">
+  <title>Salvador Martinez — DevOps / SRE Engineer</title>
+  <meta name="description" content="Salvador Martinez — DevOps and SRE engineer based in Atlanta, Georgia.">
+  <meta property="og:title" content="Salvador Martinez — DevOps / SRE">
+  <meta property="og:description" content="DevOps and SRE engineer based in Atlanta, Georgia.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#66BFBF">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-  <script src="https://kit.fontawesome.com/babd73e286.js" crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#06b6d4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Silkscreen:wght@400;700&family=Schoolbell&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/wolf.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
 
-  <section id="top-section">
-    <div class="container transition">
-      <img id="top-cloud" src="images/cloud.png" alt="">
-      <h1 id="title"><em>I'm Salvador</em></h1>
-      <h2 id="description">a <span class="pro">pro</span>grammer</h2>
-      <img id="bottom-cloud" src="images/cloud.png" alt="">
-    </div>
-    <div class="container">
-      <img id="mountain-img" src="images/mountain.png" alt="">
-    </div>
-  </section>
+  <!-- Tab anchors (CSS-only navigation) -->
+  <div id="tab-home" class="tab-anchor"></div>
+  <div id="tab-about" class="tab-anchor"></div>
+  <div id="tab-skills" class="tab-anchor"></div>
+  <div id="tab-projects" class="tab-anchor"></div>
+  <div id="tab-contact" class="tab-anchor"></div>
 
-  <section id="middle-section">
-    <div class="container">
-      <img class="profile-img" src="images/fox.svg" alt="">
-      <h2>Hi!</h2>
-      <p class="profile-description">Nice to meet you!</p>
-      <p class="profile-description">I'm an application support engineer based in Atlanta, Georgia.</p>
-      <p class="profile-description">I have <span id="years-exp"></span> years of experience working with web applications.</p>
+  <div class="forest-bg">
+    <div class="forest-ambient"></div>
+    <div class="forest-trees">
+      <div class="pixel-tree tree-1"></div>
+      <div class="pixel-tree tree-2"></div>
+      <div class="pixel-tree tree-3"></div>
+      <div class="pixel-tree tree-4"></div>
+      <div class="pixel-tree tree-5"></div>
+      <div class="pixel-tree tree-6"></div>
+      <div class="pixel-tree tree-7"></div>
     </div>
-    <hr>
+    <div class="forest-ground"></div>
+  </div>
+  <img class="forest-monster monster-1" src="images/slime.svg" alt="" width="40" height="40">
+  <img class="forest-monster monster-2" src="images/mushroom.svg" alt="" width="36" height="36">
+  <img class="forest-monster monster-3" src="images/bat.svg" alt="" width="32" height="32">
+  <img class="forest-monster monster-4" src="images/wisp.svg" alt="" width="28" height="28">
+  <img class="forest-monster monster-5" src="images/skull.svg" alt="" width="34" height="34">
+  <img class="forest-monster monster-6" src="images/spider.svg" alt="" width="30" height="30">
 
-    <h2 class="skills-title">Skills</h2>
+  <div class="page-shell">
+    <div class="site-layout">
 
-    <div class="container">
-      <div class="skill-row">
-        <img class="skill-img" src="images/code.svg" alt="">
-        <div class="skill-description-container1">
-          <h3 class="skills-header">Web Development</h3>
-          <p class="skill-description1">Websites should be beautiful and functional.
-            I'm always working on learning the latest and greatest technologies to implement in my projects.</p>
+      <!-- MASTHEAD -->
+      <header class="masthead-card">
+        <div class="brand-block">
+          <a href="#tab-home" class="brand-mark">imsalvador<span class="brand-accent">.com</span></a>
+        </div>
+        <nav class="brand-nav">
+          <a href="#tab-home" class="nav-link nav-link-home">Home</a>
+          <a href="#tab-about" class="nav-link nav-link-about">Quest Log</a>
+          <a href="#tab-skills" class="nav-link nav-link-skills">Inventory</a>
+          <a href="#tab-projects" class="nav-link nav-link-projects">Projects</a>
+          <a href="#tab-contact" class="nav-link nav-link-contact">Contact</a>
+        </nav>
+      </header>
+
+      <!-- TAB STAGE -->
+      <div class="tab-stage">
+        <div class="tab-track">
+
+          <!-- HOME -->
+          <div class="tab-panel">
+            <div class="main-grid">
+              <div class="main-stack">
+
+                <!-- Intro card -->
+                <div class="panel-card intro-card">
+                  <div class="avatar-wrap">
+                    <div class="avatar-ring">
+                      <img class="avatar-img" src="images/wolf.svg" alt="">
+                    </div>
+                    <span class="avatar-badge">SRE</span>
+                    <div class="hp-row">
+                      <span class="hp-heart">&#9829;</span>
+                      <span class="hp-heart">&#9829;</span>
+                      <span class="hp-heart">&#9829;</span>
+                      <span class="hp-heart hp-heart-half">&#9829;</span>
+                    </div>
+                  </div>
+                  <div class="intro-text">
+                    <p class="intro-kicker">a wild engineer appeared!</p>
+                    <h1 class="intro-name">Salvador <span class="accent">Martinez</span></h1>
+                    <p class="intro-role">DevOps / SRE Engineer</p>
+                    <p class="intro-location">&#9670; Atlanta, Georgia</p>
+                  </div>
+                </div>
+
+                <!-- Status card -->
+                <div class="panel-card notice-card">
+                  <div class="notice-icon">
+                    <span class="notice-dot"></span>
+                  </div>
+                  <div class="notice-text">
+                    <p class="notice-body">Current quest: exploring <strong>agentic AI</strong> tooling and building reliable infrastructure.</p>
+                  </div>
+                  <div class="notice-footer">
+                    <div class="xp-bar-wrap">
+                      <span class="xp-label">EXP</span>
+                      <div class="xp-bar"><div class="xp-bar-fill" id="xp-fill"></div></div>
+                      <span class="xp-text" id="xp-text"></span>
+                    </div>
+                    <p class="notice-save">&#9733; save point &mdash; &copy; <span id="copyright-year"></span> Salvador Martinez</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="sidebar-stack">
+
+                <!-- Music card -->
+                <div class="panel-card music-card"
+                  data-music-url="https://music.youtube.com/watch?v=dKACYQWuaJM">
+                  <p class="card-kicker">battle music</p>
+                  <a class="music-body" id="music-link" href="#" target="_blank" rel="noopener">
+                    <img class="album-art" id="music-thumb" src="" alt="">
+                    <div class="music-info">
+                      <div class="song-title-wrap">
+                        <span class="song-title" id="music-title">Loading...</span>
+                      </div>
+                      <span class="song-artist" id="music-artist"></span>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- Links card -->
+                <div class="panel-card">
+                  <p class="card-kicker">party members</p>
+                  <div class="link-list">
+                    <a href="https://www.linkedin.com/in/salvador-martinez/" target="_blank" rel="noopener" class="link-item">
+                      <span class="link-icon">in</span>
+                      <span>LinkedIn</span>
+                    </a>
+                    <a href="https://stackoverflow.com/users/9351561/salvador-martinez" target="_blank" rel="noopener" class="link-item">
+                      <span class="link-icon">SO</span>
+                      <span>Stack Overflow</span>
+                    </a>
+                    <a href="mailto:salvadort.martinez@gmail.com" class="link-item">
+                      <span class="link-icon">@</span>
+                      <span>Email</span>
+                    </a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- ABOUT -->
+          <div class="tab-panel">
+            <div class="rpg-screen">
+              <div class="rpg-header">character select</div>
+              <div class="rpg-body">
+
+                <div class="rpg-top">
+                  <div class="rpg-portrait">
+                    <div class="rpg-portrait-frame">
+                      <img src="images/wolf.svg" alt="" class="rpg-portrait-img">
+                    </div>
+                    <span class="rpg-lvl">LVL <span id="years-exp-about"></span></span>
+                  </div>
+                  <div class="rpg-info">
+                    <div class="rpg-info-row"><span class="rpg-label">Name</span><span class="rpg-value">Salvador Martinez</span></div>
+                    <div class="rpg-info-row"><span class="rpg-label">Class</span><span class="rpg-value">DevOps / SRE</span></div>
+                    <div class="rpg-info-row"><span class="rpg-label">Location</span><span class="rpg-value">Atlanta, GA</span></div>
+                    <div class="rpg-info-row"><span class="rpg-label">Since</span><span class="rpg-value">2018</span></div>
+                  </div>
+                </div>
+
+                <div class="rpg-stats">
+                  <div class="rpg-stat">
+                    <span class="rpg-stat-label">Infrastructure</span>
+                    <div class="rpg-bar"><div class="rpg-bar-fill" style="--fill: 85%"></div></div>
+                  </div>
+                  <div class="rpg-stat">
+                    <span class="rpg-stat-label">Automation</span>
+                    <div class="rpg-bar"><div class="rpg-bar-fill" style="--fill: 70%"></div></div>
+                  </div>
+                  <div class="rpg-stat">
+                    <span class="rpg-stat-label">Monitoring</span>
+                    <div class="rpg-bar"><div class="rpg-bar-fill" style="--fill: 90%"></div></div>
+                  </div>
+                  <div class="rpg-stat">
+                    <span class="rpg-stat-label">AI / Agentic</span>
+                    <div class="rpg-bar"><div class="rpg-bar-fill" style="--fill: 45%"></div></div>
+                  </div>
+                </div>
+
+                <div class="rpg-quests">
+                  <div class="rpg-quest-head">quest log</div>
+                  <div class="rpg-quest-item">
+                    <span class="rpg-quest-icon">&#9733;</span>
+                    <span class="rpg-quest-text">Infrastructure &amp; Reliability</span>
+                    <span class="rpg-quest-status rpg-status-active">[ACTIVE]</span>
+                  </div>
+                  <div class="rpg-quest-item">
+                    <span class="rpg-quest-icon">&#9733;</span>
+                    <span class="rpg-quest-text">AI Tooling Explorer</span>
+                    <span class="rpg-quest-status rpg-status-wip">[WIP]</span>
+                  </div>
+                  <div class="rpg-quest-item">
+                    <span class="rpg-quest-icon">&#9670;</span>
+                    <span class="rpg-quest-text">Built first website</span>
+                    <span class="rpg-quest-badge">2018</span>
+                  </div>
+                  <div class="rpg-quest-item">
+                    <span class="rpg-quest-icon">&#9670;</span>
+                    <span class="rpg-quest-text">Monitor Everything</span>
+                    <span class="rpg-quest-badge">&#10003;</span>
+                  </div>
+                  <div class="rpg-quest-item">
+                    <span class="rpg-quest-icon">&#9670;</span>
+                    <span class="rpg-quest-text">Automate the Boring Stuff</span>
+                    <span class="rpg-quest-badge">&#10003;</span>
+                  </div>
+                </div>
+
+                <div class="rpg-dialog">
+                  <p class="rpg-dialog-text">I've spent <span id="years-exp-dialog"></span> years building and maintaining reliable infrastructure. I focus on monitoring, automation, and keeping things simple. When I'm not working on infra, I'm messing with AI tooling and generative models.</p>
+                  <span class="rpg-dialog-cursor">&#9660;</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS -->
+          <div class="tab-panel">
+            <div class="skills-grid">
+
+              <div class="panel-card skill-panel">
+                <p class="card-kicker">&#9876; cloud & infra</p>
+                <div class="tag-row">
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/amazonwebservices/22d3ee" alt="">AWS</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/docker/22d3ee" alt="">Docker</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/kubernetes/22d3ee" alt="">Kubernetes</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/linux/22d3ee" alt="">Linux</span>
+                  <span class="tag">Windows Server</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/nginx/22d3ee" alt="">Nginx</span>
+                </div>
+              </div>
+
+              <div class="panel-card skill-panel">
+                <p class="card-kicker">&#128065; monitoring & ops</p>
+                <div class="tag-row">
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/grafana/22d3ee" alt="">Grafana</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/prometheus/22d3ee" alt="">Prometheus</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/datadog/22d3ee" alt="">Datadog</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/splunk/22d3ee" alt="">Splunk</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/newrelic/22d3ee" alt="">New Relic</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/netdata/22d3ee" alt="">Netdata</span>
+                </div>
+              </div>
+
+              <div class="panel-card skill-panel">
+                <p class="card-kicker">&#9998; languages & web</p>
+                <div class="tag-row">
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/python/22d3ee" alt="">Python</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/gnubash/22d3ee" alt="">Bash</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/javascript/22d3ee" alt="">JavaScript</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/html5/22d3ee" alt="">HTML / CSS</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/go/22d3ee" alt="">Go</span>
+                </div>
+              </div>
+
+              <div class="panel-card skill-panel">
+                <p class="card-kicker">&#9881; devops tools</p>
+                <div class="tag-row">
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/git/22d3ee" alt="">Git</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/githubactions/22d3ee" alt="">GitHub Actions</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/ansible/22d3ee" alt="">Ansible</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/jenkins/22d3ee" alt="">Jenkins</span>
+                </div>
+              </div>
+
+              <div class="panel-card skill-panel skill-panel-wide">
+                <p class="card-kicker">&#9889; ai & agentic</p>
+                <div class="tag-row">
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/anthropic/22d3ee" alt="">Claude</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/anthropic/22d3ee" alt="">Claude Code</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/google/22d3ee" alt="">Gemini</span>
+                  <span class="tag"><img class="tag-icon" src="https://cdn.simpleicons.org/google/22d3ee" alt="">Gemini CLI</span>
+                  <span class="tag">Deepseek</span>
+                  <span class="tag">Cline</span>
+                  <span class="tag">Opencode</span>
+                  <span class="tag">Stable Diffusion</span>
+                  <span class="tag">ComfyUI</span>
+                  <span class="tag">WAN 2.1</span>
+                  <span class="tag">WAN 2.2</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- PROJECTS -->
+          <div class="tab-panel">
+            <div class="panel-card projects-intro">
+              <div class="projects-intro-icon">&#9876;</div>
+              <div>
+                <p class="projects-intro-title">dungeons cleared</p>
+                <p class="projects-intro-copy">Most loot is locked behind NDA wards. Here's what I can show.</p>
+              </div>
+            </div>
+            <div class="project-grid">
+              <a href="https://imsalvador.com" target="_blank" rel="noopener" class="panel-card project-card">
+                <div class="project-header">
+                  <span class="project-name">imsalvador.com</span>
+                  <span class="project-arrow">&rarr;</span>
+                </div>
+                <p class="project-desc">My personal portfolio site. Vanilla HTML, CSS, and JS. Hosted on GitHub Pages.</p>
+                <div class="tag-row">
+                  <span class="tag-sm">HTML</span>
+                  <span class="tag-sm">CSS</span>
+                  <span class="tag-sm">JavaScript</span>
+                </div>
+              </a>
+              <div class="panel-card project-card project-placeholder">
+                <div class="project-header">
+                  <span class="project-name">more soon</span>
+                </div>
+                <p class="project-desc">New dungeons loading... check back later.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="tab-panel">
+            <div class="panel-card contact-card">
+              <div class="contact-head">
+                <p class="contact-title">send a raven</p>
+                <p class="contact-copy">Want to join forces or trade items? Send a message through any of these channels.</p>
+              </div>
+              <div class="contact-methods">
+                <a href="mailto:salvadort.martinez@gmail.com" class="contact-method">
+                  <span class="contact-method-icon">@</span>
+                  <div class="contact-method-info">
+                    <span class="contact-method-label">email</span>
+                    <span class="contact-method-value">salvadort.martinez@gmail.com</span>
+                  </div>
+                  <span class="contact-method-arrow">&rarr;</span>
+                </a>
+                <a href="https://www.linkedin.com/in/salvador-martinez/" target="_blank" rel="noopener" class="contact-method">
+                  <span class="contact-method-icon">in</span>
+                  <div class="contact-method-info">
+                    <span class="contact-method-label">linkedin</span>
+                    <span class="contact-method-value">salvador-martinez</span>
+                  </div>
+                  <span class="contact-method-arrow">&rarr;</span>
+                </a>
+                <a href="https://stackoverflow.com/users/9351561/salvador-martinez" target="_blank" rel="noopener" class="contact-method">
+                  <span class="contact-method-icon">SO</span>
+                  <div class="contact-method-info">
+                    <span class="contact-method-label">stack overflow</span>
+                    <span class="contact-method-value">salvador-martinez</span>
+                  </div>
+                  <span class="contact-method-arrow">&rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <div class="skill-row skill-row-reverse">
-        <img class="skill-img" src="images/tower-pc.svg" alt="">
-        <div class="skill-description-container2">
-          <h3 class="skills-header">Operations Engineering</h3>
-          <p class="skill-description2">I can help keep your web application up and running!
-            My specialties include monitoring, investigating, and creating simple solutions.</p>
-        </div>
-      </div>
+
+
     </div>
+  </div>
 
-    <hr>
-
-    <div class="container">
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>I'd love to work with you!</h3>
-        <p class="contact-message">If you have a question or want to reach out, please send me a message.</p>
-        <div id="contact-btn"><a class="BUTTON_AMJ" href="mailto:salvadort.martinez@gmail.com">Email Me!</a></div>
-      </div>
+  <div id="coin-hud" class="coin-hud">
+    <img src="images/coin.svg" class="coin-hud-icon" width="20" height="20" alt="">
+    <span id="coin-count">0</span>
+  </div>
+  <div id="upgrade-banner" class="upgrade-banner"></div>
+  <div id="wolf-shadow" class="wolf-shadow"></div>
+  <div id="wolf-wrap" class="wolf-wrap">
+    <div class="wolf-wing wolf-wing-left">
+      <svg viewBox="0 0 20 16" width="18" height="14" shape-rendering="crispEdges">
+        <rect x="8" y="4" width="4" height="4" fill="#e0f2fe"/>
+        <rect x="12" y="2" width="4" height="4" fill="#e0f2fe"/>
+        <rect x="16" y="0" width="4" height="4" fill="#bae6fd"/>
+        <rect x="4" y="8" width="4" height="4" fill="#bae6fd"/>
+        <rect x="8" y="8" width="4" height="4" fill="#e0f2fe" opacity="0.6"/>
+        <rect x="12" y="6" width="4" height="4" fill="#e0f2fe" opacity="0.6"/>
+      </svg>
     </div>
-  </section>
-
-  <footer class="bottom-container">
-    <div class="footer-links">
-      <a class="footer-link" href="https://www.linkedin.com/in/salvador-martinez/">LinkedIn</a>
-      <a class="footer-link" href="https://stackoverflow.com/users/9351561/salvador-martinez">Stack Overflow</a>
-      <a class="footer-link" href="https://imsalvador.com">Website</a>
+    <div class="wolf-wing wolf-wing-right">
+      <svg viewBox="0 0 20 16" width="18" height="14" shape-rendering="crispEdges">
+        <rect x="8" y="4" width="4" height="4" fill="#e0f2fe"/>
+        <rect x="4" y="2" width="4" height="4" fill="#e0f2fe"/>
+        <rect x="0" y="0" width="4" height="4" fill="#bae6fd"/>
+        <rect x="12" y="8" width="4" height="4" fill="#bae6fd"/>
+        <rect x="8" y="8" width="4" height="4" fill="#e0f2fe" opacity="0.6"/>
+        <rect x="4" y="6" width="4" height="4" fill="#e0f2fe" opacity="0.6"/>
+      </svg>
     </div>
-    <p class="copyright-text"><span id="copyright-year"></span> Salvador Martinez</p>
-  </footer>
-
-  <script>
-    document.getElementById('years-exp').textContent = new Date().getFullYear() - 2020;
-    document.getElementById('copyright-year').textContent = new Date().getFullYear();
-  </script>
-
+  <svg id="roaming-wolf" class="roaming-wolf" viewBox="0 0 512 512" width="48" height="48">
+    <g class="wolf-crown" style="display:none;">
+      <rect x="332" y="56" width="130" height="40" fill="#fbbf24"/>
+      <rect x="332" y="26" width="26" height="30" fill="#fbbf24"/>
+      <rect x="384" y="0" width="26" height="26" fill="#fbbf24"/>
+      <rect x="436" y="26" width="26" height="30" fill="#fbbf24"/>
+      <rect x="358" y="56" width="26" height="14" fill="#f59e0b"/>
+      <rect x="410" y="56" width="26" height="14" fill="#f59e0b"/>
+      <rect x="384" y="66" width="26" height="14" fill="#ef4444"/>
+    </g>
+    <g>
+      <rect x="358" y="230" width="26" height="26"/>
+      <rect x="435" y="256" width="26" height="26"/>
+    </g>
+    <!-- Far legs (darker, behind body) -->
+    <polygon class="wolf-leg wolf-leg-far-back" style="fill:#727271;" points="77,358 77,384 77,409.6 77,435.2 77,461 102,461 102,435.2 102,409.6 102,384 102,358"/>
+    <polygon class="wolf-leg wolf-leg-far-front" style="fill:#727271;" points="256,358 256,384 256,409.6 256,435.2 256,461 282,461 282,435.2 282,409.6 282,384 282,358"/>
+    <!-- Body -->
+    <path class="wolf-body" style="fill:#A5A5A5;" d="M410,230v-25.2V179h-26v-25.4V128v-26h-26v26h-25v26h-26v25h-25v26h-26h-25.6h-25.6h-25.6h-25.6H128v25h-26v-25.2v-25.6v-25.6V128H77v26H51v25.2v25.6v25.6V256v25.6V307h26V358h25h26h25.6h25.6h25.6h25.6H256h26h25.2H333v-25h25.4H384v-26h25.6H435v-25.4V256v-26H410z M384,256h-26v-26h26V256z"/>
+    <!-- Near legs (lighter, in front of body) -->
+    <polygon class="wolf-leg wolf-leg-near-back" style="fill:#A5A5A5;" points="128,358 128,384 128,409.6 128,435.2 128,461 154,461 154,435.2 154,409.6 154,384 154,358"/>
+    <polygon class="wolf-leg wolf-leg-near-front" style="fill:#A5A5A5;" points="307,358 307,384 307,409.6 307,435.2 307,461 333,461 333,435.2 333,409.6 333,384 333,358"/>
+  </svg>
+  </div>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
